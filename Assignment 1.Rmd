@@ -292,7 +292,7 @@ par(mfrow = c(3,3))
 for(j in 1:9){
   x=j/10
   new.rowx <- results.matrix[results.matrix[,1] == x,]
-  plot(new.rowx[,2],new.rowx[,3],xlab = "col2", ylab = "col3",main=paste("x=",i))
+  plot(new.rowx[,2],new.rowx[,3],xlab = "col2", ylab = "col3",main=paste("x=",x))
 }
 
 ```
